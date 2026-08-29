@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "STOP VPN"
 include(":app")
+project(":app").projectDir = file("app/app")
